@@ -1,0 +1,21 @@
+[project]
+name = "my-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Pratik6001",email = "128393826+Pratik6001@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "biopython (>=1.85,<2.0)"
+]
+
+[tool.poetry]
+packages = [{include = "my_project", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
