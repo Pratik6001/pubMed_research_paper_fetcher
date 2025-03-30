@@ -23,7 +23,7 @@ This script fetches research papers from PubMed based on a given search query, e
 Clone this repository and navigate to the project folder:
 
 ```sh
-git clone https://github.com/your-repo/pubmed-fetcher.git
+git clone https://github.com/Pratik6001/pubMed_research_paper_fetcher.git
 cd pubmed-fetcher
 ```
 
